@@ -6,8 +6,8 @@ import pandas as pd
 import os
 
 # Azure Blob Storage configuration
-blob_account_url = 'https://lakshmiazureml.blob.core.windows.net'
-storage_credential = 'Rgp/QondzZQ42f8nVBXjnHmZGyCwt/GTbnKCT5wdugzHza9/UqFxvvm2vwv3dczixD+RSQq4O+gE+AStGy9dkA=='
+blob_account_url = '--------AzureStoragecontainerurl'
+storage_credential = '---------addazuretoken'
 
 blob_service_client = BlobServiceClient(account_url=blob_account_url, credential=storage_credential)
 
