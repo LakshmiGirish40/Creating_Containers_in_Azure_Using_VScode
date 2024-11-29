@@ -5,8 +5,8 @@ from io import BytesIO
 import os
 from azure.storage.blob import BlobServiceClient
 
-blob_account_url = 'https://lakshmiazureml.blob.core.windows.net'
-storage_credential = 'Rgp/QondzZQ42f8nVBXjnHmZGyCwt/GTbnKCT5wdugzHza9/UqFxvvm2vwv3dczixD+RSQq4O+gE+AStGy9dkA=='
+blob_account_url = '--------AzureStoragecontainerurl'
+storage_credential = '---------addazuretoken'
 
 # Initialize BlobServiceClient
 blob_service_client = BlobServiceClient(account_url=blob_account_url, credential=storage_credential)
